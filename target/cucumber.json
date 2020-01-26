@@ -1,0 +1,289 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16846392400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefinition.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-25T18:13:03.821Z",
+        "before": [
+          {
+            "result": {
+              "duration": 711800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Authorized user should be able to login",
+        "description": "",
+        "id": "login-as-an-authorized-user;authorized-user-should-be-able-to-login",
+        "after": [
+          {
+            "result": {
+              "duration": 1644750700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2648002400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user enter the valid credentials",
+            "match": {
+              "location": "LoginStepDefinition.the_user_enter_the_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3093870100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should be on \"Account Summary\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Summary\"",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.the_user_should_be_on_page(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10703000101,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefinition.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-25T18:13:28.172Z",
+        "before": [
+          {
+            "result": {
+              "duration": 92400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User with wrong credentials should not be able to login",
+        "description": "",
+        "id": "login-as-an-authorized-user;user-with-wrong-credentials-should-not-be-able-to-login",
+        "after": [
+          {
+            "result": {
+              "duration": 2235225400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1431924400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user tries to login with invalid credentials",
+            "match": {
+              "location": "LoginStepDefinition.the_user_tries_to_login_with_invalid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3741672300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should see the message \"Login and/or password are wrong.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login and/or password are wrong.\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStepDefinition.the_user_should_see_the_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9974135800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefinition.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-25T18:13:46.297Z",
+        "before": [
+          {
+            "result": {
+              "duration": 77900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User with blank username or password should not be able to login",
+        "description": "",
+        "id": "login-as-an-authorized-user;user-with-blank-username-or-password-should-not-be-able-to-login",
+        "after": [
+          {
+            "result": {
+              "duration": 1204385101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 503649201,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user tries to login with no username or password",
+            "match": {
+              "location": "LoginStepDefinition.the_user_tries_to_login_with_no_username_or_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3040610899,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should see the message \"Login and/or password are wrong.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login and/or password are wrong.\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStepDefinition.the_user_should_see_the_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Login as an authorized user",
+    "description": "",
+    "id": "login-as-an-authorized-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
